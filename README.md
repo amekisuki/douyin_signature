@@ -9,3 +9,5 @@
 经过对虚拟机 opcode 的分析，并打印出程序的运行流程进行分析。纯靠着眼拔把整个流程给理清了。其中流程有尝试创建 `canvas` 元素来确保是在浏览器中运行，`_signature` 参数基于用户输入的字符串、当前时间戳、浏览器 User-Agent 生成。
 
 逆向整理后的源码在 [douyin_signature.js](./douyin_signature.js)，Web 手第一次做逆向，也不会编译原理，只能在 opcode 中打印 log 硬怼。😅
+
+blog link: https://github.red/asoul-video-trick/
